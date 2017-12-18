@@ -9,6 +9,7 @@
   }
   
   body {
+    background: #263366;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #555;
   }
@@ -29,14 +30,21 @@
     font-weight: 400;
     color: #333;
   }
+
+  p {
+    color: #eff;
+  }
   
-  
+  aside {
+    background: #f76c6c;
+    
+  }
   /*
    * Override Bootstrap's default container.
    */
   
   .container {
-    max-width: 60rem;
+    max-width: 100rem;
   }
   
   
@@ -87,10 +95,15 @@
    */
   
   .blog-header {
+    /* background: #263366; */
+    text-align: center;
+    background: #a8d0e6;
+    padding-top: 1.25rem;        
     padding-bottom: 1.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     border-bottom: .05rem solid #eee;
   }
+
   .blog-title {
     margin-bottom: 0;
     font-size: 2rem;
@@ -98,7 +111,7 @@
   }
   .blog-description {
     font-size: 1.1rem;
-    color: #999;
+    color: #fff;
   }
   
   @media (min-width: 40em) {
@@ -145,6 +158,7 @@
     margin-bottom: 4rem;
   }
   .blog-post-title {
+    color: #fff;
     margin-bottom: .25rem;
     font-size: 2.5rem;
   }
@@ -158,6 +172,9 @@
    * Footer
    */
   
+   .blog-footer p {
+     color: #999;
+   }
   .blog-footer {
     padding: 2.5rem 0;
     color: #999;
