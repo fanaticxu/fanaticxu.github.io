@@ -1,0 +1,37 @@
+.body {
+  max-width: 800px;
+}
+
+.header {
+  margin-top: 3rem;
+  text-align: center; 
+}
+
+div.row {
+  margin: 0 5em;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 3em;
+
+}
+hr {
+	width: 80%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  body { 
+     font-size: 2em; 
+  }
+
+}
+/* change fone size when page width change */
